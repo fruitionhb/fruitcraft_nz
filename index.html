@@ -19,7 +19,7 @@
             margin: 0;
         }
         </style>
-        <title>Fruitcraft Blocks 2026</title>
+        <title>Fruitcraft NZ</title>
     </head>
     <body>
         <div id="map">
@@ -56,7 +56,7 @@
         }
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[-39.6917418593912,176.6894448097584],[-39.574210642942475,176.958617588926]]);
+        }).fitBounds([[-39.69569522070914,176.7619003799551],[-39.537029768072514,176.9465522553466]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/qgis2web/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -128,7 +128,7 @@
             return this._div;
         };
         title.update = function () {
-            this._div.innerHTML = '<h2>Fruitcraft Blocks 2026</h2>';
+            this._div.innerHTML = '<h2>Fruitcraft NZ</h2>';
         };
         title.addTo(map);
         var abstract = new L.Control({'position':'topleft'});
@@ -143,7 +143,7 @@
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Updated 25/05/26';
+                this._div.innerHTML = 'Updated 27/05/26';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({

@@ -1,2 +1,2 @@
 # Fruitcraft_NZ
-Web map for Fruitcraft varieties
+A web map showing Fruitcraft blocks mapped since 2023: <a href="https://FruitionHB.github.io/NZFTC25/">Fruitcraft_NZ</a>

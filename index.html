@@ -56,7 +56,7 @@
         }
         var map = L.map('map', {
             zoomControl:false, maxZoom:28, minZoom:1
-        }).fitBounds([[-39.69569522070914,176.7619003799551],[-39.537029768072514,176.9465522553466]]);
+        }).fitBounds([[-39.57664647966519,176.7603758924945],[-39.50206997434887,176.9058994131107]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/qgis2web/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
@@ -143,7 +143,7 @@
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Updated 27/05/26';
+                this._div.innerHTML = 'Updated 01/06/26';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
